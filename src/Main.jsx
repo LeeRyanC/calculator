@@ -38,8 +38,8 @@ const Main = () => {
                     </form>
                 </div>
                 <div id='container'>
+                    <button class='clear' onClick={clear} value='clear'>Clear</button>
                     <button onClick={backspace} value='back'>Back</button>
-                    <button onClick={clear} value='clear'>Clear</button>
                     <button onClick={handleClick} value='7'>7</button>
                     <button onClick={handleClick} value='8'>8</button>
                     <button onClick={handleClick} value='/'>÷</button>
